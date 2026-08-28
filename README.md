@@ -44,7 +44,7 @@ Select Interests
 Enable / Disable Notifications
         ↓
 Click SUBMIT PROFILE
-      ```
+```
 
 ---
 
