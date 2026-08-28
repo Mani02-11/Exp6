@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="22dp">
+
+        <!-- Logo -->
+        <LinearLayout
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:background="@drawable/logo_bg">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="👨‍🎓"
+                android:textSize="38sp" />
+
+        </LinearLayout>
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="STUDENT PROFILE"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.05" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Basic Android Views"
+            android:textColor="#DCCBFF"
+            android:textSize="15sp" />
+
+        <!-- Main Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/card_bg"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <!-- Section -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Personal Information"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <!-- Name -->
+            <EditText
+                android:id="@+id/etName"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/edittext_bg"
+                android:hint="Full Name"
+                android:inputType="textPersonName"
+                android:padding="15dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#D0C7DD" />
+
+            <!-- USN -->
+            <EditText
+                android:id="@+id/etUSN"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="11dp"
+                android:background="@drawable/edittext_bg"
+                android:hint="USN"
+                android:inputType="text"
+                android:padding="15dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#D0C7DD" />
+
+            <!-- Email -->
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="11dp"
+                android:background="@drawable/edittext_bg"
+                android:hint="Email Address"
+                android:inputType="textEmailAddress"
+                android:padding="15dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#D0C7DD" />
+
+            <!-- Course -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Course"
+                android:textColor="#DCCBFF"
+                android:textSize="14sp" />
+
+            <Spinner
+                android:id="@+id/spinnerCourse"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edittext_bg" />
+
+            <!-- Year -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Select Year"
+                android:textColor="#DCCBFF"
+                android:textSize="14sp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+
+                <RadioButton
+                    android:id="@+id/radioFirst"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="1st Year"
+                    android:textColor="#FFFFFF" />
+
+                <RadioButton
+                    android:id="@+id/radioSecond"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="2nd Year"
+                    android:textColor="#FFFFFF" />
+
+                <RadioButton
+                    android:id="@+id/radioThird"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="3rd Year"
+                    android:textColor="#FFFFFF" />
+
+            </RadioGroup>
+
+            <!-- Interests -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Interests"
+                android:textColor="#DCCBFF"
+                android:textSize="14sp" />
+
+            <CheckBox
+                android:id="@+id/checkProgramming"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Programming"
+                android:textColor="#FFFFFF" />
+
+            <CheckBox
+                android:id="@+id/checkDatabase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Database"
+                android:textColor="#FFFFFF" />
+
+            <CheckBox
+                android:id="@+id/checkWeb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Web Development"
+                android:textColor="#FFFFFF" />
+
+            <!-- Switch -->
+            <Switch
+                android:id="@+id/switchNotification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Enable Notifications"
+                android:textColor="#FFFFFF" />
+
+            <!-- Buttons -->
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_bg"
+                android:text="SUBMIT PROFILE"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnClear"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginTop="8dp"
+                android:text="Clear Form"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
