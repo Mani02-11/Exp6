@@ -44,9 +44,7 @@ Select Interests
 Enable / Disable Notifications
         ↓
 Click SUBMIT PROFILE
-        ↓
-Display Submitted Details
-```
+      ```
 
 ---
 
@@ -189,7 +187,8 @@ The application launched successfully and displayed the Student Profile page.
 
 ### Screenshot
 
-<img width="400" height="600" alt="testcase1" src="YOUR_GITHUB_SCREENSHOT_LINK_HERE" />
+<img width="400" height="660" alt="1000162806" src="https://github.com/user-attachments/assets/07a05725-a9f9-4e7a-9989-6db5d9e579bf" />
+
 
 ---
 
@@ -225,9 +224,8 @@ All student details were entered and selected successfully.
 
 ### Screenshot
 
-<img width="400" height="600" alt="testcase2" src="YOUR_GITHUB_SCREENSHOT_LINK_HERE" />
+<img width="400" height="660" alt="1000162807" src="https://github.com/user-attachments/assets/afd78881-7d40-4a07-9616-39c662152150" />
 
-> **Note:** This screenshot shows the student's **Name and USN** as required for the GitHub submission.
 
 ---
 
@@ -255,7 +253,9 @@ The profile was submitted successfully and the form was cleared successfully.
 
 ### Screenshot
 
-<img width="400" height="600" alt="testcase3" src="YOUR_GITHUB_SCREENSHOT_LINK_HERE" />
+<img width="400" height="660" alt="1000162808" src="https://github.com/user-attachments/assets/509000de-3c28-44ee-b816-6fa6e2d5a0f4" />
+
+<img width="400" height="660" alt="1000162809" src="https://github.com/user-attachments/assets/c73c0e63-5f67-4868-869b-a2afdf0a3870" />
 
 ---
 
@@ -268,7 +268,6 @@ After completing this experiment, the following concepts were understood:
 - Using `Spinner` for dropdown selection
 - Using `RadioButton` for single selection
 - Using `CheckBox` for multiple selections
-- Using `Switch` for ON/OFF functionality
 - Handling Button click events
 - Performing basic form validation
 - Displaying messages using Toast
